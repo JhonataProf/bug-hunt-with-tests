@@ -1,8 +1,8 @@
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
-import { taskRoutes } from "./routes/tasks.js";
-import { errorHandler } from "./middlewares/error.js";
+import { taskRoutes } from "./routes/tasks";
+import { errorHandler } from "./middlewares/error";
 
 export const app = express();
 

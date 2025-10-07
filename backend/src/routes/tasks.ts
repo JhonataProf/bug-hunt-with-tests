@@ -1,5 +1,5 @@
 import type { Express, Request, Response } from "express";
-import { db } from "../lib/db.js";
+import { db } from "../lib/db";
 
 export function taskRoutes(app: Express) {
   app.get("/tasks", (req: Request, res: Response) => {
